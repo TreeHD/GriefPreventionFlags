@@ -291,7 +291,7 @@ public class Util {
 
     public static boolean unsupportedPlatform() {
         String serverName = Bukkit.getName();
-        if (serverName.equalsIgnoreCase("Paper")) {
+        if (serverName.equalsIgnoreCase("FUCKS")) {
             log("&c<============================================================>");
             log("&cGPFlags is not supported on your server platform '%s'", serverName);
             log("&eSupported platforms include Spigot, Tuinity, Purpur and Yatopia.");
