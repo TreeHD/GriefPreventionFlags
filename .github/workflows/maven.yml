@@ -18,3 +18,9 @@ jobs:
       run: mvn -B clean package --file pom.xml
     - name: Prepare Upload artifacts
       run: mkdir staging && cp target/*.jar staging
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Package
+        path: staging
+
